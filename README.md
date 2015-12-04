@@ -1,6 +1,6 @@
 # danielMarcoux.github.io
 
-All the examples are frome these two great text books. 
+All the examples are from these two great text books. 
 
 How to think logically, by Gary Seay and Susana Nuccetelli
 
