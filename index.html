@@ -1,0 +1,1729 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Critical Thinking</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.indigo-pink.min.css" /> 
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style>
+	.card {
+	    -webkit-transition: -webkit-transform 1s;
+	    -moz-transition: -moz-transform 1s;
+	    -o-transition: -o-transform 1s;
+	    transition: transform 1s;
+	    -webkit-transform-style: preserve-3d;
+	    -moz-transform-style: preserve-3d;
+	    -o-transform-style: preserve-3d;
+	    transform-style: preserve-3d;
+	    -webkit-transform-origin: 50% 50%;
+	}
+	.card div {
+	    position: relative;
+	    -webkit-backface-visibility: hidden;
+	    -moz-backface-visibility: hidden;
+	    -o-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	}
+	.card .front {
+	width:90%;
+	margin-left:5%;
+	margin-top:2%
+	}
+	.card .back {
+	width:90%;
+	margin-left:5%;
+	margin-top:-11.5%;
+	margin-bottom:2%;
+	    -webkit-transform: rotateY( 180deg );
+	    -moz-transform: rotateY( 180deg );
+	    -o-transform: rotateY( 180deg );
+	    transform: rotateY( 180deg );
+
+
+	}
+	.card.flipped {
+	    -webkit-transform: rotateY( 180deg );
+	    -moz-transform: rotateY( 180deg );
+	    -o-transform: rotateY( 180deg );
+	    transform: rotateY( 180deg );
+	}
+	.page {
+	    width: 90%;
+	    margin-left:5%;
+	    margin-top:2%;
+	}
+	.supportingText {
+		font-size: 150%;
+		line-height:110%;
+	}
+    </style>
+  </head>
+	<body>
+	<script>
+		function flip() {
+		    $('.card').toggleClass('flipped');
+		}
+	</script>
+	<!-- Simple header with fixed tabs. -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+		    mdl-layout--fixed-tabs">
+	  <header class="mdl-layout__header">
+	    <div class="mdl-layout__header-row">
+	      <!-- Title -->
+	      <span class="mdl-layout-title">Critical Thinking</span>
+	    </div>
+	    <!-- Tabs -->
+	    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+	      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Structure</a>
+	      <a href="#fixed-tab-2" class="mdl-layout__tab">Acceptability</a>
+	      <a href="#fixed-tab-3" class="mdl-layout__tab">Relevance</a>
+	      <a href="#fixed-tab-4" class="mdl-layout__tab">Grounds</a>
+	      <a href="#fixed-tab-5" class="mdl-layout__tab">Effectiveness of Rebuttal</a>
+	      <a href="#fixed-tab-6" class="mdl-layout__tab">Validity</a>
+	    </div>
+	  </header>
+	  <div class="mdl-layout__drawer">
+	    <span class="mdl-layout-title">Daniel Marcoux</span>
+	  </div>
+	  <main class="mdl-layout__content">
+	    <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+	      <div class="page-content">
+		<div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Improper Structure</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Begging the Question</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Either explicitly or implicitly using as the premise of an argument the same claim that is asserted as the conclusion of that argument.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Begging the Question</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Dylan: "This college is very paternalistic in its student policies."<br>
+				Roman: "What reason do you have for saying that?"<br>
+				Dylan: "Because they treat the students like children."<br>
+				<br>
+				Reasoning.<br>
+				Dylan is only providing a definition of paternalistic, not an argument.		
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Complex Question</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Formulating a question in a way that inappropriately presupposes that a definite answer has already been given to an unasked question about an open issue or that treats a series of questions as if the same answer will be given to each of the questions in the series.
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Complex Question</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				The most common form of this fallacy asks two questions, one of which is explicit and the other implicit. Consider the roommate who asks a fellow sophomore, “What fraternity are you going to pledge?”	
+				<br>
+				<br>
+				Reasoning.<br>
+				The interviewed roommate has not stated that he would like to join a fraternity.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Question Begging Definition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Using a questionable definition, disguised as an empirical premise, to support an empirical conclusion, which has the effect of making the empirical claim at issue true by definition.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Question Begging Definition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Let us suppose that two people are discussing whether Christians drink alcoholic beverages. One rejects strong empirical evidence that many Christians do drink alcohol on the grounds that “if they were real Christians they would not drink.”
+				<br>
+				<br>
+				Reasoning.<br>
+				It becomes clear that the person is not treating this as an empirical issue, and instead is defining a Christian as one who does not drink.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Incompatible Premises</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to draw a conclusion from inconsistent or incompatible premises.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Incompatible Premises</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				If God is omniscient, he knows about the evil in the world; if he is all-loving, he would want to prevent evil; and if he is all-powerful, he would prevent evil. And since God is omniscient, all-loving, and all-powerful, therefore, there is no evil (not E) because God knows about it, would want to prevent it, and would be capable of preventing it. But evil persists (E).
+				<br>
+				<br>
+				Reasoning.<br>
+				Both E and not E. These premises thus leave us with a case of incompatible premises, from which no conclusion of any kind can be drawn.
+
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Contradiction Between Premise and Conclusion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Drawing a conclusion that is incompatible with at least one of the premises. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Contradiction Between Premise and Conclusion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				Angela: "As an American, I can do anything I want. Freedom is what our ancestors fought and died for. Nobody can tell me what to do and what not to do."
+				<br>
+				Meghan: "But there are laws, Angela. Don't you have to obey the speed limit and not take money that doesn't belong to you?"
+				<br>
+				Angela: "Well, of course, you have to obey the law, but the government still can't tell me what to do."
+				<br>
+				<br>
+				Reasoning.<br>
+				You can't have it both ways. You can't claim in your premise that the government can tell you what to do, and that is, “obey the laws,” and then claim in your conclusion that the government can't tell you what to do.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of the Elusive Normative Premises</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Drawing a moral, legal, or aesthetic judgment without using a discernible normative premise that provides a warrant for it. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of the Elusive Normative Premises</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Moral Arguments that do not have a moral premise, Legal Arguments that do not have legal premise, Aesthetic Arguments that do not have aesthetic premises.
+
+				<br>
+				<br>
+				Reasoning.<br>
+				Moral Arguments must have empirical moral premises, Legal Arguments must have legal premises (especially in a court of law), and Aesthetic Arguments must have 			empirical aesthetic premises (A movie is the best ever made, 88% of people on Rotten Tomatoes agree).
+			</div>			
+		    </div>
+		  </div>
+		</div>
+
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Deductive Inference</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Denying the Antecedent</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Denying the antecedent of a conditional premise and then concluding the denial of the consequent. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Denying the Antecedent</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“Professor Lane told us that we would pass his course if we passed the final exam. So I guess I failed the course, because I failed the final.”
+				<br>
+				<br>
+				Reasoning.<br>
+				However, Professor Lane did not say that the only way to pass the course would be to pass the final. There may be a number of other ways of passing the course in addition to passing the final exam. Although passing the final may be a sufficient condition for passing the course, it is not a necessary one. Therefore, failing the final—that is denying that the final was passed—cannot lead to the conclusion that one has failed the course.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Affirming the Consequent</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Affirming the consequent of a conditional premise and then concluding the affirmation of the antecedent.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Affirming the Consequent</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“If you do very well on the SAT, you will probably get into a good college. Since you go to Centre College, which is a good school, you must have done well on the SAT.”
+				<br>
+				<br>
+				Reasoning.<br>
+				The assumption in this argument is that the only way to get into a good school is to get a high score on the SAT, yet there are a number of other conditions that may be sufficient for getting into a good school, such as good grades, athletic prowess, and theatrical talent.
+
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Undistributed Middle Term</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Drawing a conclusion in a syllogism in which the middle term in the premises is not distributed at least once.<br>
+				<br>
+				*Syllogism: an instance of a form of reasoning in which a conclusion is drawn (whether validly or not) from two given or assumed propositions (premises), each of which shares a term with the conclusion, and shares a common or middle term not present in the conclusion (e.g., all dogs are animals; all animals have four legs; therefore all dogs have four legs ). 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Undistributed Middle Term</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“Supporters of the Ku Klux Klan are against gun control (Universal Affirmative Statement), and Republicans are also against gun control (Universal Affirmative Statement), so Some Republicans must be supporters of the Klan (I).”
+				<br>
+				<br>
+				Reasoning.<br>
+				The conclusion “some supporters of the Klan” cannot be drawn from the premises in this argument. In fact, no claim could be drawn because it is a structurally flawed argument. The middle term, people against gun control is not distributed, since it is the predicate of a universal affirmative statement. In the absence of a claim made about all the members of the class of people against gun control, there is no way to connect the end terms in the conclusion. In other words, there is no way of knowing whether any of the people against gun control who are supporters of the Klan are included in the class of people against gun control who are in the class of Republicans.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Illicit Distribution of the End Term</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Drawing a conclusion in a syllogism in which a distributed end term in the conclusion is not distributed in the premise. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Illicit Distribution of the End Term</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“Newly constructed homes are very expensive (Universally Affirmative Statement). Nevertheless, new homes are very energy efficient (Universally Affirmative Statement). So, an energy-efficient home is going to be expensive (Universally Affirmative Statement).”	
+				<br>
+				<br>
+				Reasoning.<br>
+				In the conclusion, the end term, energy-efficient homes, makes a claim about all energy-efficient homes, since it is the subject of a universally affirmative statement; but in the second premise, where the term appears as the predicate term of a universally affirmative statement, it is not distributed, that is, it makes no claim about every energy efficient home. Since the argument is structurally flawed, it cannot be concluded that energy-efficient homes are expensive.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>False Conversion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Reversing the antecedent and consequent of a conditional premise or exchanging the subject and predicate terms in a universal affirmative or particular negative premise and then concluding that these converted premises retain their original truth value. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>False Conversion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“If all heroin addicts started by smoking marijuana, we can conclude that those who become marijuana users will turn into heroin addicts.”
+				<br>
+				<br>
+				Reasoning.<br>
+				The argument seen in standard form is a simple but fallacious one.<br> 
+				<br>
+				All heroin addicts are persons who started as marijuana users, (premise). Therefore, all those who are marijuana users are persons who will be heroin addicts (conclusion).<br> 
+				<br>
+				From the assumed truth of the universal affirmative premise of this argument, one cannot conclude that the conversion of the premise is true.
+
+			</div>			
+		    </div>
+		  </div>
+
+	        </div>
+	      </div>
+	    </section>
+	    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+	      <div class="page-content">
+	        <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Linguistic Confusion</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Equivocation</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Directing another person toward an unwarranted conclusion by making a word or phrase employed in two different senses in an argument appear to have the same meaning throughout. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Equivocation</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex. <br>
+				1. All laws require a lawmaker. <br>
+				2. Galileo's principle of inertia is a law. <br>
+				3. Galileo's principle of inertia requires a lawmaker. <br>	
+				<br>
+				Reasoning.<br>
+				The arguer is equating laws of dynamics with laws of legality.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Ambiguity</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Directing another person toward an unwarranted conclusion by presenting a claim or argument that uses a word, phrase, or grammatical construction that can be interpreted in two or more distinctly different ways, without making clear which meaning is intended.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Ambiguity</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				A recent announcement on our college bulletin board was semantically ambiguous. It simply read: “Personal Security for Women Has Been Canceled for the Rest of the Semester.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				Given the fact that our campus security chief had just resigned, it was not clear whether one should conclude that there would perhaps no longer be any security provided for female residence halls or that maybe a scheduled class focused on personal safety for women would not be meeting for the remainder of the semester. Without further clarification, one should not draw either conclusion.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Misleading Accent</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Directing another person toward an unwarranted conclusion by placing improper or unusual emphasis on a word, phrase, or particular aspect of an issue or claim. This fallacy is also committed by taking portions of others' statements out of their original context and using them in a way that conveys an unintended meaning.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Misleading Accent</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				Suppose you heard the following statement uttered by one of the candidates in a hard-fought gubernatorial race: “If you knew that one of the candidates in this race was receiving money from illegal sources, would that affect your voting decision? Look into the matter and see where the campaign funds of my opponent are coming from. The facts might surprise you.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				The speaker has made no accusation against the opponent that requires any kind of defense, but the power of suggestion has done its work.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Illicit Contrast</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: A listener's inferring from another person's claim a related but unwarranted contrasting claim by improperly placing unusual emphasis on a word or phrase in the speaker's or writer's statement.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Illicit Contrast</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				If a Catholic bishop were dealing with a situation in which a priest had been discovered to be “taking liberties” with young boys in his parish, he might caution all the priests in the diocese that “it is sinful for priests to take advantage of young boys.” If one reasoned that it is not sinful for priests to take advantage of young girls, it would be fallacious.
+				<br>
+				<br>
+				Reasoning.<br>
+				It would be fallacious, since it would be unjustified by the context, to assume that the bishop is suggesting that it is not sinful for priests to relate sexually to young girls.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Misuse of a Vague Expression</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to defend a position by means of a vague expression or drawing an unjustified conclusion as a result of assigning a precise meaning to another person's word or phrase that is imprecise in its meaning or range of application.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Misuse of a Vague Expression</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				At a faculty meeting several years ago, the president of our small college announced that our student enrollment figure was moving us toward a financially dangerous situation. He then suggested that we might improve our student retention rate if we would show more concern for some of our weaker students, some of whom were dropping out of school because of failing grades. In response to the presidents remarks, one faculty member indignantly exclaimed that he would quit before he would let the president force him to give a passing grade to a student who did not deserve it. The faculty member in this case gave his own specificity to the president's vague request to “show more concern for some of the weaker students.”
+				<br>
+				<br>
+				Reasoning.<br>
+Of course, if previous experience gave the faculty member reason to believe that “show more concern” was a euphemism for “don't fail any students,” then his interpretation would have been justified. In this instance, however, he is not.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Distinction Without a Difference</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to defend an action or position as different from another one by means of alternative words or phrases, when the action or position defended is no different in substance from the one from which it is linguistically distinguished. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Distinction Without a Difference</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				We must judge this issue by what the Bible says, not by what we think it says or by what some scholar or theologian thinks it says.”
+				<br>
+				<br>
+				Reasoning.<br>
+				The radio preacher who made this claim apparently thought he was making an important distinction, but it is no distinction at all. If the Bible requires interpretation, and it does, then all of its readers are interpreters. The Bible or any other text doesn't say anything until it is interpreted by someone—either by a scholar, a theologian, an ordinary reader, or the radio preacher. Therefore, there is no intelligible distinction to be drawn between what the Bible says and what someone says it says. In this particular case, the preacher apparently thinks that he will tell us what the Bible says, but as a matter of fact, he will tell us merely what he interprets it as saying.
+			</div>			
+		    </div>
+		  </div>
+
+		</div>
+		<div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Unwarranted Assumption</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Novelty</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that a new idea, law, policy, or action is better simply because it is new.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Novelty</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				A sign in front of a restaurant or service station with the words “Under New Management” is usually intended to convey to the passerby that the food or service will be better than in the past.	
+				<br>
+				<br>
+				Reasoning.<br>
+				However, no reason is given for believing such a claim. If we patronize such a place in the expectation of better food or service, we have committed the fallacy of novelty no less than the person who erected the sign.
+			</div>			
+		    </div>
+		  </div>
+
+<div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of the Continuum</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that small movements or differences on a continuum between extremes have a negligible effect and that to make definite distinctions between points on that line is impossible or at least arbitrary.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of the Continuum</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				A person trying to quit smoking says, “surely one more cigarette will not make a difference.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				The cigarette is not negligible.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Composition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that what is true of the parts of a whole is therefore true of the whole.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Composition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				1. Each player for the Chicago Cubs is an excellent player.<br>
+				2. The Chicago Cubs are an excellent team.	
+				<br>
+				<br>
+				Reasoning.<br>
+				Just because the players have talent, it does not mean they work together well as a team.
+			</div>			
+		    </div>
+		  </div>
+
+<div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Division</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that what is true of a whole is therefore true of each of the parts of that whole.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Division</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				1. The U.S. Congress represents every state in the Union.<br>
+				2. Each member of the U.S. Congress represents every state in the Union.
+				<br>
+				<br>
+				Reasoning.<br>
+				Just because Congress represents every state in the Union, it does not mean that each member of Congress represents every state.
+
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>False Alternatives</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Restricting too severely the number of proposed alternative responses to a problem or situation and assuming that one of the suggested alternatives must be the true or the right one. (Black and White Fallacy)			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>False Alternatives</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				A case of treating contraries as if they were contradictories is also seen in one of the well-known sayings of Jesus: “If you are not for me, you must be against me.” A similar instance may be found in the claim that if one is not a theist, then one must be an atheist.	
+				<br>
+				<br>
+				Reasoning.<br>
+				Neither claim seems to allow for the alternative of neutrality or agnosticism.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Is-Ought Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that because something is now the practice, it ought to be the practice. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Is-Ought Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“But, officer, you shouldn't give me a parking ticket for parking here! People park here all the time and never get tickets. I myself have been parking here for several months. No one pays any attention to the “No Parking” sign in this alley.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				The fact that it has been the practice not to obey or even to enforce a traffic regulation is not a good reason for concluding that it should not be obeyed or enforced.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Wishful Thinking</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that because one wants something to be true, it is or will be true. Conversely, assuming that because one does not want something to be true, then it is not or will not be true. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Wishful Thinking</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“My husband has been missing for more than ten years, but I know he is still alive. He just couldn't be dead.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				It may be true that he is still alive, but this wife's wishing her husband to be alive provides no support for the claim that he is.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Misuse of a Principle</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Misapplying a principle or rule in a particular instance by assuming that it has no exceptions. Conversely, attempting to refute a principle or rule by means of an exceptional case.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Misuse of a Principle</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				If the rule with regard to X-rated movies shown at a drive-in theater is that “no one under the age of eighteen will be allowed into the theater,” it would be a misapplication of this rule for an attendant to refuse to allow a couple to bring their sleeping infant with them.	
+				<br>
+				<br>
+				Reasoning.<br>
+				The rule was not intended to be applied in such cases.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of the Mean</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that the moderate or middle view between two extremes must be the best or right one simply because it is the middle view.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of the Mean</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+Consider the following argument that is sometimes put forth regarding the Israeli-Palestinian conflict. “Both Palestinian and Israeli points of view represent extremes. Therefore, some kind of compromise must be the best solution.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				Compromise may be the only way that this dispute can be finally settled, but it is a different thing to say that a compromise is the best solution in that conflict.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Faulty Analogy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that because two things are alike in one or more respects, they necessarily are alike in some other important respect, while failing to recognize the insignificance of their similarities and/or the significance of their dissimilarities.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Faulty Analogy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“Smoking cigarettes is just like ingesting arsenic into your system. Both have been shown to be causally related to death. So if you wouldn't want to take a spoonful of arsenic, I would think that you wouldn't want to continue smoking.”
+				<br>
+				<br>
+				Reasoning.<br>
+				Although it is true that both the ingestion of arsenic and smoking cigarettes have been shown to be causally related to death, there are some significant differences in the character of those causal relations. A single heavy dose of arsenic poisoning will bring about immediate death, whereas the heavy smoking of cigarettes would be likely to bring about premature death only as a result of a long process of deterioration or disease. In one case, then, death is immediate and certain; in the other, death is statistically neither immediate or certain.
+			</div>			
+		    </div>
+		  </div>
+
+		</div>
+	      </div>
+	    </section>
+	    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+	      <div class="page-content">
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Irrelevant Premises</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Genetic Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Evaluating a thing in terms of its earlier context while ignoring relevant changes that may have altered its character in the interim, and then using that evaluation to support a conclusion in the present.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Genetic Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“Yes, I have heard that Dr. Reid is a very good gynecologist, but if I were a woman, I don't think I would go to him. I went to high school with him, and he had the biggest porn collection in the school.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				The arguer here is using his past negative assessment of the doctor during his adolescent life as the grounds for a present assessment of him.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Rationalization</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Using plausible-sounding but usually fake reasons to justify a particular position that is held on other, less respectable grounds. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Rationalization</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				After losing a boyfriend to another young woman, Sofia says: “Well, I was going to dump him anyway. It was getting boring having him around. I should have left him long ago; I just felt sorry for him.”
+				<br>
+				<br>
+				Reasoning.<br>
+				Sofia is trying to deal with the fact that the relationship with her boyfriend is over. To make that break more personally palatable, she finds fake reasons to justify it to herself and to anyone who cares to listen.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Drawing the Wrong Conclusion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Drawing a conclusion other than the one supported by the evidence presented in the argument.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Drawing the Wrong Conclusion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“Reporters keep the public informed, and we all know that a well informed public is necessary to bring about any semblance of justice. Besides, reporters keep public officials and others 'honest' by digging out the facts behind their claims and exposing them when they don't tell the truth or when they engage in questionable practices. Therefore, I think that the courts are grossly unfair to newspaper reporters when they force them to go to prison just because they won't reveal the sources of their information.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				The weight of evidence in this argument supports the view that newspaper reporters perform a very useful and important service for their readers; however, it does not support the claim that the courts have been unfair to reporters.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Using the Wrong Reasons</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to support a claim with reasons other than the reasons appropriate to the claim.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Using the Wrong Reasons</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Many critics of gun-control legislation have argued that, because gun-control laws will not prevent criminals from using guns in the course of committing crimes, there is no good reason to pass such legislation.
+				<br>
+				<br>
+				Reasoning.<br>
+				Those critics are using the wrong reasons to come to their conclusion against gun-control legislation. The proponents of gun-control legislation recognize that such legislation will probably have only a limited effect on the control of crime. They know that the serious criminal will not be significantly affected by the restricted sale and registration of guns. Since the legislation is proposed with full awareness of this limitation, it would not be fair or relevant for a critic to argue against it on those grounds. The legislation, however, could serve other very important functions, such as making guns less readily available as a means of settling domestic quarrels. Moreover, gun-control might have the effect of the number of accidental killings. Hence, in spite of 		its limitations, proponents think that there are very good reasons for passing legislation that would control gun use. A relevant argument against or criticism of gun-control legislation would be one that showed that the stated functions of the legislation could not be accomplished by enacting it or that some other more important principle was in conflict with the proposal (such as your second amendment rights).
+			</div>			
+		    </div>
+		  </div>
+
+ 	      </div>
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Irrelevant Appeal</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Irrelevant Authority</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to support a claim by appealing to the judgment of one who is not an authority in the field, the judgment of an unidentified authority, or the judgment of an authority who is likely to be biased. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Irrelevant Authority</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“Senator, if you think that the FBI has been engaging in unauthorized or illegal activities, why don;t we ask the Director of the Bureau and his staff to testify at this hearing so that we can get to the bottom of this matter? Who is in a better position to testify about FBI operations that the Director and his division heads?”
+				<br>
+				<br>
+				Reasoning.<br>
+				The appeal to authority here might be proper in most inquiries concerning FBI operations; yet such testimony might be questionable if the inquiry were intended to evaluate charges of wrongdoing within the Bureau that might even involve its Director.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Common Opinion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Using the acceptance of a position simply on the grounds that a large number of people accept it or urging the rejection of a position on the grounds that very few people accept it.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Common Opinion</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“I'm going to buy the new Lady Gaga CD. It's been at the top of the charts for more than a month. It must be a good one.”
+				<br>
+				<br>
+				Reasoning.<br>
+What large numbers of people do or believe tells us nothing more than what large numbers of people do or believe. It tells nothing about the quality of the thing in question, least of all, the quality of a new CD.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Force or Threat</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to persuade others of a position by threatening them with an undesirable state of affairs instead of presenting evidence for one's view. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Force or Threat</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Student: “Professor Boltwood, why do we have to attend the guest lecture tonight, as it is outside class time and was not listed on the syllabus?”<br>
+				Professor Boltwood: “Because that is what I require.”
+				<br>
+				<br>
+				Reasoning.<br>
+				The student is asking why the class members are required to attend the extra lecture, but Professor Boltwood responds in an authoritarian fashion. He simply appeals to his power over the students to force their compliance. His argument is fallacious, for it implicitly issues a threat instead of defending the requirement with relevant reasons.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Tradition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to persuade others of a point of view by appealing to their feelings of reverence or respect for a tradition instead of to evidence, especially when a more important principle or issue is at stake.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Tradition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				“When I was in public school, we prayed every day at the beginning of the school session. It was a very meaningful thing for me. I just don't see why my children can't have the same kind of experience.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				No counterargument is offered here that considers the more important principle at stake, addressed by the Supreme Court ruling that state-required prayer in public schools constitutes an “establishment of religion”; the only appeal made is to the comfortableness of a tradition.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Self-Interest</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Urging an opponent to accept or reject a particular position by appealing solely to his or her personal circumstances or self-interest, when a more important issue is at stake.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Appeal to Self-Interest</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“Professor Beamer, are you sure you want to openly oppose this new curricular proposal? You know that both the president and the dean are pushing it pretty hard, and you don't have tenure yet!”
+				<br>
+				<br>
+				Reasoning.<br>
+				This arguer is appealing to the self-interest of Professor Beamer, as a means of getting him to withdraw his opposition to the new curriculum. Since Professor Beamer obviously wants to receive tenure and the president and the dean have a lot to do with whether he will get it, it is being implicitly suggested that it would be in this best interest not to risk alienating the president and dean. The more important consideration, however, should be whether the curricular proposal deserves his support or opposition—apart from any consideration of self-interest.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Manipulation of Emotions</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to persuade others to accept a position by exploiting their emotions instead of presenting evidence for the position. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Manipulation of Emotions</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“How could you vote for Senator Withers? Every gay and lesbian organization in the state has endorsed him.”
+				<br>
+				<br>
+				Reasoning.<br>
+				If the person being questioned is homophobic, this strategy of trying to assign some kind of guilt by association just might work, but it shouldn't. A person who let himself or herself be intimidated by such a fallacious appeal is just as guilty of irrational thinking as the emotional manipulator.
+			</div>			
+		    </div>
+		  </div>
+
+		</div>
+	      </div>
+	    </section>
+	    <section class="mdl-layout__tab-panel" id="fixed-tab-4">
+	      <div class="page-content">
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Missing Evidence</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Insufficient Sample</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Drawing a conclusion or generalization from too small a sample of cases. 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Insufficient Sample</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“My experience with my ex-wife was so bad that I have no intention of ever marrying again. In fact, I wouldn't recommend marriage to anyone.”
+				<br>
+				<br>
+				Reasoning.<br>
+				This reasoning is obviously based on a very small sample. This man's anecdotal experience with his wife is not a large enough sample for the conclusion.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Unrepresentative Data</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Drawing a conclusion based on data from an unrepresentative or biased sample.
+ 			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Unrepresentative Data</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“A recent study of how Americans spend their vacations revealed that 52 percent of the people spend five or more days a year at ocean beaches.”
+				<br>
+				<br>
+				Reasoning.<br>
+				This study was based on a sample of fifty thousand Virginians, drawn from every relevant subgroup of the population, but it is hardly representative. Most areas of Virginia are close to popular beaches within the state as well as in Maryland and North and South Carolina. For that reason, a disproportionate number of the residents of Virginia, when compared with people from many other states, vacation at a beach.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Contrary-to-Fact Hypothesis</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Treating a hypothetical claim as if it were a statement of fact by making a claim, without sufficient evidence, about what would have happened in the past if other conditions had been present or about an event that will occur in the future.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Contrary-to-Fact Hypothesis</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Most of us have encountered the fallacy of the contrary-to-fact hypothesis in claims made about historical events: “If Hitler had not invaded Russia and opened up two 					'fronts,' the Nazis would have won World War 2.”
+				<br>
+				<br>
+				Reasoning.<br>
+				This is such a highly speculative claim that it is difficult to imagine how sufficient “evidence” for the claim could ever be produced.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Popular Wisdom</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Appealing to insights expressed in aphorisms or cliches, folk wisdom, or so-called common sense instead of to relevant evidence for a claim.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Fallacy of Popular Wisdom</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>
+				A typical campus cliché expressed by one student to another the night before an important test is: “Well, if you don't know it now, you never will.”	
+				<br>
+				<br>
+				Reasoning.<br>
+				No evidence is usually given for such a questionable claim; indeed, there is considerable evidence to suggest that the claim is false. As far as performance on tests is concerned, it is probably safe to say that a conscientious student might learn a significant amount of material during the hours immediately before the test.
+			</div>			
+		    </div>
+		  </div>
+
+                 <div class="card" onclick="flip()">
+                    <div class="front mdl-card mdl-shadow--4dp">
+                        <div class = "mdl-card__title  mdl-card--border"><h3>Special Pleading</h3></div>
+                        <div class = "supportingText mdl-card__supporting-text">
+                                Def: Applying principles, rules, or criteria to other persons or situations while failing or refusing to apply them to oneself or to a situation that is of personal interest, without providing sufficient evidence to support such an exception.
+                        </div>
+                    </div>
+                    <div class="back mdl-card mdl-shadow--4dp">
+                        <div class = "mdl-card__title  mdl-card--border"><h3>Special Pleading</h3></div>
+                        <div class = "supportingText mdl-card__supporting-text">
+                                Ex.<br>
+				Jessie and Katrina are college roommates. Let us imagine them engaged in the following brief conversation:
+				<br>		
+				Jessie: “Would you please turn off that music? I want to take a nap.”
+				<br>
+				Katrina: “I was just listening to a YouTube video of our brass ensemble.”
+				<br>
+				Jessie: “Listen to it some other time. I want to take a nap.”
+                                <br>
+                                <br>
+                                Reasoning.<br>
+				The implicit principle that most roommates accept is that one roommate's interest is not more important than the other roommate's interest, but Jessie is implicitly claiming that her interest is more important than Katrina's. Jessie is guilty of special pleading.
+                        </div>
+                    </div>
+                  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Omission of Key Evidence</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Constructing an argument that fails to include key evidence that is critical to the support of the conclusion.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Omission of Key Evidence</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“I think I will buy the car my neighbor is selling. He's had it for a couple of years, and it seems to run just fine. I like the color and the style, and he tells me it gets really good gas mileage.”
+				<br>
+				<br>
+				Reasoning.<br>
+				These may all be good reasons to buy the car, but one of the key premises in an argument for buying a car is whether the car is in the appropriate price range. And that crucial information is missing.
+			</div>			
+		    </div>
+		  </div>
+		</div>
+
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Causal Fallacies</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Confusion of a Necessary with a Sufficient Condition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming that a necessary condition of an event is also a sufficient one.
+		
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Confusion of a Necessary with a Sufficient Condition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“You said that I would have to run the mile in less than six minutes to be on the track team, and I did. So why did I get cut from the team?”
+				<br>
+				<br>
+				Reasoning.<br>
+				The arguer has assumed that meeting the eligibility requirement of being able to run a mile in less than six minutes would be a sufficient condition of being on the track team. Meeting the requirement, however, was only a necessary condition. The sufficient condition for being on the track team would probably include the meeting of other requirements as well.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Causal Oversimplification</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Oversimplifying the causal antecedents of an event by specifying causal factors that are insufficient to account for the event in question or by overemphasizing the role of one or more of those factors.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Causal Oversimplification</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				A radio preacher recently argued in the following way: “Marriage would be greatly helped if husband and wife would read the Scriptures together and pray together every day. No wonder divorce has increased so much! Family worship has dropped almost 30 percent in just the past fifteen years.”
+				<br>
+				<br>
+				Reasoning.<br>
+				It is not likely that the rise in the national divorce rate could be sufficiently accounted for solely by data on family worship, even if the data were true. Because the reasons for the dissolution of a marriage are usually quite varied and complex, it seems highly questionable to reduce them simply to a change in worship patterns.
+			</div>			
+		    </div>
+		  </div>
+	      </div>
+
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Post Hoc Fallacies</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Confusion of Cause and Effect</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Confusing the cause with the effect of an event.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Confusion of Cause and Effect</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“It's no wonder that Natalie makes such good grades. She's the teacher's pet.”
+				<br>
+				<br>
+				Reasoning.<br>
+				It is much more likely the case that Natalie is the teacher's pet because she makes good grades. Based on our general knowledge of classroom dynamics, if Natalie is indeed the teacher's pet, it would seem highly unusual to treat her as a “pet” for reasons other than those related to her superior performance.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Neglect of a Common Cause</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Failing to recognize that two seemingly related events may not be causally related at all, but rather are effects of a common cause.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Neglect of a Common Cause</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Suppose that a college student is both obese and depressed. A typical analysis of such a situation might be that the obesity is causing the depression or that, because of the depression the student tends to overeat.
+				<br>
+				<br>
+				Reasoning.<br>
+				A more likely explanation is that some underlying psychological or physical problem is causing both effects.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Domino Fallacy (Slippery Slope)</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Assuming without appropriate evidence that a particular action or event is the first in a series of steps that will lead inevitably to a specific, usually undesirable consequence.	
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Domino Fallacy (Slippery Slope)</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“If we allow the government to limit the number of guns a person can buy each month, what's next? If they can limit guns, they can limit how much liquor, how much food, or even how many cars you can buy. They already tell us how many deer we can shoot. Next thing you know, they will even be telling us the number of kids we can have. They'll keep on until they control us.”
+				<br>
+				<br>
+				Reasoning.<br>
+				There is no evidence here that any of these events are causally connected. In fact, it is difficult to imagine how such a connection might be defended. Although it is conceivable that good reasons might be found for putting limits on some of the things mentioned, it is not because they are causally connected.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Gambler's Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Arguing that because a chance event has had a certain run in the past, the probability of its occurrence in the future is significantly altered.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Gambler's Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“It's been tails five times in a row. I'm sticking with heads.”
+				<br>
+				<br>
+				Reasoning.<br>
+				There is no more likelihood that the next toss of the coin will be heads than that it will be tails, even though some of us would be inclined to believe it would be tails and just as many of us would be inclined to believe it is heads.
+			</div>			
+		    </div>
+		  </div>
+
+		</div>
+	      </div>
+	    </section>
+	    <section class="mdl-layout__tab-panel" id="fixed-tab-5">
+	      <div class="page-content">
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Counterevidence</h2></div>
+
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Denying the Counterevidence</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Refusing to consider seriously or unfairly minimizing the evidence that is brought against one's argument or position.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Denying the Counterevidence</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Senator Winger: “Homosexuality is a learned trait. You don't have to be a homosexual. Your so-called studies that say it is something you're born with were fabricated by the radical left to try to force us to accept the gay lifestyle.”
+				<br>
+				<br>
+				Reasoning.<br>
+				Senator Winger not only denies that there is any credible counterevidence to her claim, she also takes the further step of “explaining away” the evidence that is offered by saying that it is the work of leftist radicals. Not only is such an attempt at rebuttal not effective, it seems likely that the senator would not take seriously any evidence brought against her view.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Ignoring the Counterevidence</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Arguing in a way that ignores or omits any reference to important available evidence that might be unfavorable to one's position, thus giving us the false impression that there is no significant evidence against it.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Ignoring the Counterevidence</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“Motorcycles are dangerous; they are noisy; only two people can ride at once; you can't ride them in cold or rainy weather; and in most states you are required to wear an uncomfortable helmet. I can't see why anyone would want to buy one.”
+				<br>
+				<br>
+				Reasoning.<br>
+				The arguer has neglected to consider several factors relevant to the desirability of owning and using a motorcycle. A good argument would contain rebuttal premises that address these and other features of the motorcycle/auto debate.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Raising Trivial Objections</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attacking an opponent's position by focusing critical attention on a minor point in his or her argument, rather than on its strengths.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Raising Trivial Objections</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Suzanne: “Walking is one of the best kinds of exercise you can get. One should walk rather than drive whenever possible. For example, rather than drive over to the cafeteria to eat lunch, it would be more beneficial to your health to walk.
+				<br>
+				Sherell: “But I don't eat at the cafeteria.”
+				<br>
+				<br>
+				Reasoning.<br>
+				Sherell is attacking an illustration that Suzanne used to make her point. The fact that the specific illustration does not fit Sherell's case is irrelevant to the basic thrust of the argument about the benefits of walking.
+			</div>			
+		    </div>
+		  </div>
+	      </div>
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Ad Hominem Fallacies</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Abusive Ad Hominem</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attacking one's opponent in a personal or abusive way in an effort to ignore or discredit his or her criticism or argument.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Abusive Ad Hominem</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Freddie: “I think we need to clean up this place tonight, Wayne. The landlord wants it to look decent when he shows it to a prospective tenant tomorrow. He said that he lost a prospective tenant he showed it to las week because it was so messy in here—especially the kitchen. He reminded us that we agreed in our contract that once we gave notice to vacate we would keep the apartment clean for showing prospective tenants.”
+				<br>
+				Wayne: “What does he know about “clean”? He's been wearing the same shirt for a week.”
+				<br>
+				<br>
+				Reasoning.<br>
+				Wayne is not responding to the landlord's argument about keeping the apartment clean during the “show” period; he is using his negative assessment of the landlord's personal habits as a device to avoid dealing with the substantive claim at issue.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Poisoning the Well</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Rejecting a criticism or argument presented by another person because of his or her personal circumstances or improper motives.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Poisoning the Well</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				“You can't believe what Professor Mahaffey has to say about higher salaries for teachers. As a teacher himself, he would naturally be in favor of increasing teachers' pay.”
+				<br>
+				<br>
+				Reasoning.<br>
+				The fact that Professor Mahaffey is a teacher should not preclude him from giving an argument that deserves our serious consideration.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Two-Wrongs Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Avoiding the obligation to honestly evaluate and/or rebut an arguer's criticism of or argument against a certain kind of behavior by accusing the arguer of acting in a way similar to the behavior that he or she is criticizing.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Two-Wrongs Fallacy</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Suppose that the golf pro at the country club tells you during tour first golf lesson that the first and most important thing to do in learning to become and effective golfer is to “keep your head down and your eye on the ball.”
+				<br>
+				<br>
+				Reasoning.<br>
+				It would be fallacious to conclude that you are not being given sound advice, simply because the golf pro doesn't always keep her head down when she plays the game.
+			</div>			
+		    </div>
+		  </div>
+
+	      </div>
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Fallacies of Diversion</h2></div>
+
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Attacking a Straw Man</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Misrepresenting an opponent's position or credible argument, usually for the purpose of making it easier to attack.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Attacking a Straw Man</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				A very clear case of misrepresentation that involves drawing unwarranted inferences can be seen in this short exchange between a proponent and an opponent of a plan to construct a new power-generating dam.
+				<br>
+				Marcia: “Unless we build a power plant in this area within the next ten years, we won't be able to meet the significantly growing demand for electrical power.”
+				<br>
+				David: “What you're saying is that you couldn't care less what happens to the plant life and wildlife in this area or even to human lives that might be dislocated by the building of this dam.”
+				<br>
+				<br>
+				Reasoning.<br>
+				David has drawn an inference from Marcia's argument that is clearly unwarranted. In no way could one conclude from her argument that she is unconcerned about the possible environmental dangers and other disruptions that would be created by building the plant.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Red Herring</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Attempting to hide the weakness of a position by drawing attention away from the real issue to a side issue.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Red Herring</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				A common way of committing the red-herring fallacy is to draw attention away from an argument or criticism that involves an undesirable situation by claiming that one should be satisfied with such a situation because “things could be worse.” Many of us have had the experience of complaining about the low or unfair wages we receive for our labors, only to be told by a parent or some older person, “Well, you could be making 35 dollars a week as I did when I was your age.”
+				<br>
+				<br>
+				Reasoning.<br>
+				Although it is true that “things” could almost always be worse than they are, that is not the issue. Drawing attention to such a notion is simply a way to divert attention from the main point at issue and thus avoid the responsibility for addressing it.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Resort to Humor or Ridicule</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Def: Injecting humor or ridicule into an argument in an effort to cover up an inability or unwillingness to respond appropriately to an opponent's criticism or counterargument.			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Resort to Humor or Ridicule</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				When a student noticed that his political science professor had used a questionable contrary-to-fact hypothesis in her analysis of a particular issue in class, he confronted her with it. Rather than examining the charge to determine whether it was a justifiable one, the professor, knowing that the student was a philosophy major, tried to blunt the force of the charge by saying: “Well, Socrates must have slipped into our class while we weren't looking. Now what did you say I did? Used a contrary-to-fact what? I didn't think philosophers were concerned about facts.”
+				<br>
+				<br>
+				Reasoning.<br>
+				Since the other class members were amused by her ridicule of the student, the professor was able to avoid facing squarely the charge against the soundness of her reasoning.
+			</div>			
+		    </div>
+		  </div>
+
+	      </div>
+
+	      </div>
+	    </section>
+	    <section class="mdl-layout__tab-panel" id="fixed-tab-6">
+	      <div class="page-content">
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Propositional Arguments</h2></div>
+
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Modus Ponens</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				If P, then Q
+				<br>
+				<br>
+				P
+				<br>
+				-----------
+				<br>
+				Q			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Modus Ponens</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				If thought requires a brain, then brainless creatures cannot think.
+				<br>
+				<br>
+				Thought requires a brain.
+				<br>
+				----------
+				<br>
+				Brainless creatures cannot think.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Hypothetical Syllogism</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				If P, then Q
+				<br>
+				<br>
+				If Q, then R
+				<br>
+				-----------
+				<br>
+				If P, then R			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Hypothetical Syllogism</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				If inland temperatures increase, then crops are damaged.
+				<br>
+				<br>
+				If crops are damaged, then we all suffer.
+				<br>
+				-----------
+				<br>
+				If inland temperatures increase, then we all suffer.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Contraposition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				If P, then Q
+				<br>
+				-----------
+				<br>
+				If not Q, then not P			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Contraposition</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				If Persia was a mighty kingdom, Then Lydia was a mighty kingdom.
+				<br>
+				----------		
+				<br>
+				If Lydia was not a mighty kingdom, then Persia was not a mighty kingdom.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Modus Tollens</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				If P, then Q
+				<br>
+				<br>
+				Not Q
+				<br>
+				-----------
+				<br>
+				Not P			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Modus Tollens</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				If there is growth, then the economy is recovering.
+				<br>
+				<br>
+				But the economy is not recovering.
+				<br>
+				----------
+				<br>
+				There is no growth.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Disjunctive Syllogism(1)</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Either P or Q
+				<br>
+				<br>
+				Not P
+				<br>
+				-----------
+				<br>
+				Q			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Disjunctive Syllogism(1)</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Either American Dennis Tito or South African Mark Shuttleworth was the first space tourist.
+				<br>
+				<br>
+				South African Mark Shuttleworth was not the first space tourist.
+				<br>
+				----------
+				<br>
+				American Dennis Tito was the first space tourist.
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>Disjunctive Syllogism(2)</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Either P or Q
+				<br>
+				<br>
+				Not Q
+				<br>
+				-----------
+				<br>
+				P			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>Disjunctive Syllogism(2)</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Either American Dennis Tito or South African Mark Shuttleworth was the first space tourist.
+				<br>
+				<br>
+				American Dennis Tito was not the first space tourist.
+				<br>
+				----------
+				<br>
+				South African Mark Shuttleworth was the first space tourist.
+			</div>			
+		    </div>
+		  </div>
+
+	      </div>
+	      <div class="page mdl-card mdl-shadow--4dp">
+		<div class = "mdl-card__title  mdl-card--border"><h2>Categorical Arguments</h2></div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>1</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				All A are B
+				<br>
+				<br>
+				No B are C
+				<br>
+				-----------
+				<br>
+				No C are A			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>1</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				All A are B
+				<br>
+				<br>
+				No B are C
+				<br>
+				----------
+				<br>
+				No C are A			
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>2</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Some A are B
+				<br>
+				<br>
+				All A are C
+				<br>
+				-----------
+				<br>
+				Some C are B			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>2</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				Some A are B
+				<br>
+				<br>
+				All A are C
+				<br>
+				-----------
+				<br>
+				Some C are B
+			</div>			
+		    </div>
+		  </div>
+
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>3</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				No A are B
+				<br>
+				<br>
+				All C are A
+				<br>
+				-----------
+				<br>
+				No C are B			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>3</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				No A are B
+				<br>
+				<br>
+				All C are A
+				<br>
+				-----------
+				<br>
+				No C are B
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>4</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				All A are B
+				<br>
+				<br>
+				All C are A
+				<br>
+				-----------
+				<br>
+				All C are B			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>4</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				All A are B
+				<br>
+				<br>
+				All C are A
+				<br>
+				-----------
+				<br>
+				All C are B
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>5</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				All A are B
+				<br>
+				<br>
+				All C are A
+				<br>
+				-----------
+				<br>
+				All C are B			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>5</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				All A are B
+				<br>
+				<br>
+				All B are C
+				<br>
+				-----------
+				<br>
+				All A are C
+			</div>			
+		    </div>
+		  </div>
+
+		  <div class="card" onclick="flip()">
+		    <div class="front mdl-card mdl-shadow--4dp">
+			<div class = "mdl-card__title  mdl-card--border"><h3>6</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				All A are B
+				<br>
+				<br>
+				Some A are not C
+				<br>
+				-----------
+				<br>
+				Some B are not C			
+			</div>
+	            </div>
+		    <div class="back mdl-card mdl-shadow--4dp">
+		    	<div class = "mdl-card__title  mdl-card--border"><h3>6</h3></div>
+			<div class = "supportingText mdl-card__supporting-text">
+				Ex.<br>	
+				All A are B
+				<br>
+				<br>
+				Some A are not C
+				<br>
+				-----------
+				<br>
+				Some B are not C
+			</div>			
+		    </div>
+		  </div>
+
+	      </div>
+
+	      </div>
+	    </section>
+	  </main>
+	</div>
+	</body>
+</html>
